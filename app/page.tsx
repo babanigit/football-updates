@@ -1,12 +1,14 @@
 // will add theme here
-import Image from "next/image";
-import Main from "./conteners/Main";
 
+
+import Navbar from "./components/Navbar";
+import Main from "./conteners/Main"
 export default function Home() {
   return (
     <>
       <div>
-        <Main />
+        
+        <div> <Navbar /> </div>
       </div>
     </>
   );

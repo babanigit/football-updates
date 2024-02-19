@@ -1,13 +1,15 @@
-// this is for routing
 
-import React from "react";
-import Link from "next/link";
 
-const Main = () => {
+
+
+import React from 'react'
+import Link from 'next/link'
+
+const Navbar = () => {
   return (
     <>
-      <div className=" ">
-        <ul>
+    <div className=' fixed top-0 right-0 h-[70px] w-full bg-pink-500 grid bg-opacity-0  '>
+    <ul className=' h-full w-full grid grid-flow-col justify-end gap-14 px-[3%] place-items-center  '>
         <li>
             <Link href="/pages/splash">splash</Link>
           </li>
@@ -21,9 +23,9 @@ const Main = () => {
             <Link href="/pages/contact">contact</Link>
           </li>
         </ul>
-      </div>
+    </div>
     </>
-  );
-};
+  )
+}
 
-export default Main;
+export default Navbar
