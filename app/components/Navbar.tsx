@@ -6,6 +6,8 @@ import React from 'react'
 import Link from 'next/link'
 
 const Navbar = () => {
+
+  
   return (
     <>
     <div className=' fixed top-0 right-0 h-[70px] w-full bg-pink-500 grid bg-opacity-0  '>
