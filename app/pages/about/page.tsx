@@ -1,10 +1,17 @@
 
 
+import Navbar from '@/app/components/Navbar'
 import React from 'react'
+import About from './About'
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+      <div>
+        <div> <Navbar /></div>
+        <div><About/></div>
+      </div>
+    </>
   )
 }
 

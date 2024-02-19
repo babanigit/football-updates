@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className=' fixed top-0 right-0 h-[70px] w-full bg-pink-500 grid bg-opacity-0  '>
     <ul className=' h-full w-full grid grid-flow-col justify-end gap-14 px-[3%] place-items-center  '>
         <li>
-            <Link href="/pages/splash">splash</Link>
+            <Link href="/">splash</Link>
           </li>
           <li>
             <Link href="/pages/home">Home</Link>
